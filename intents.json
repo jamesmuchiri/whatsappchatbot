@@ -1,0 +1,62 @@
+
+{"intents": [
+  {
+    "tag": "Who",
+    "patterns": ["who are you", "what are you","what your name","tell me somthing about you"],
+    "responses": ["I am *Paz*, a Healthcare chatbot for *Nav Jeevan Healthcare services.*\nI can help you in may ways eg. \n\n _Appointment booking_ \n _Emergencies_ \n _Diagnosis_"]
+  },
+  {
+    "tag": "Diagnosis",
+    "patterns": ["Diagnosis", "d","i am sick","i dont feel well","i have some symptoms"," Requires a medical diagnosis"],
+    "responses": ["How do you feel, any Symptoms?🤒🤒\nIf so, name any *Three* Symptoms"]
+  },
+  {
+    "tag": "thanks",
+    "patterns": ["Thanks", "Thank you", "Thats helpful", "Thanks a lot!"],
+    "responses": ["Happy to help!🤗", "Any time!🤗", "My pleasure🤗"]
+  },
+  {
+    "tag": "appointment",
+    "patterns": ["i want a Healthcare appointment","appointment", "i need to book appointment","i need an appointment"],
+    "responses": ["What treatment are you looking for today? Choose below\n\n  -Dental\n  -Asthma\n  -Allergies\n  -Cancer\n  -Surgery\n  -Diabetes\n  -Arthritis\n\n -Others"]
+  },
+  {
+    "tag": "Malaria",
+    "patterns": ["fever,headaches,vomiting","muscle pains,diarrhoea,vomiting","fever,headaches,muscle pains","diarrhoea,shivering,fatigue","shivering,fatigue,headaches"],
+    "responses": ["I am sorry🙇🏽🙇🏽 to tell you, i think you have\n\n*MALARIA* \n\nMalaria is a serious tropical disease spread by mosquitoes."]
+  },
+  {
+    "tag": "Prevention of Malaria",
+    "patterns": ["How can i prevent myself from malaria","Prevention of Malaria","Malaria prevention"],
+    "responses": ["To protect yourself from mosquito bites, you should:\n -Cover your skin.\n -Apply insect repellant to skin and clothing.\n -Sleep under a net."]
+  },
+  {
+    "tag": "Heart Disease",
+    "patterns": ["Shortness of breath,irregular heart beats,faster heartbeat","Weakness,dizziness,Sweating","Chest discomfort,Lack of energy,Shortness of breath","irregular heart beats,Weakness,Nausea","Sweating,faster heartbeat,Lack of energy"],
+    "responses": ["I think you have some kind of *Heart Disease*\nThere are diffrent kinds of Heart Disease which include:\n -Coronary Artery Disease\n -Arrhythmias\n -Atrial Fibrillation\n -Heart Valve Disease _etc_\nThey all have the same symptoms. \n\nDo you want to book an appointmnet?"]
+  },
+  {
+    "tag": "What Is Pleurisy",
+    "patterns": ["What Is Pleurisy?","Pleurisy?","What Is the defination Pleurisy in healthcare"],
+    "responses": ["Pleurisy is a type of chest pain. It affects a part of your body called the pleura.\n\nThe pleura is a thin layer of tissue that wraps your lungs. They fit snugly within your chest, which is lined with another thin layer of pleura.\n\nThese layers keep your bare lungs from rubbing against the wall of your chest cavity every time you breathe in. There’s a bit of fluid within the narrow space between the two layers of pleura to keep everything moving smoothly.\n\nWhen you’re healthy, you never notice your pleura at work. But if your pleura has a problem, you’ll feel it."]
+  },
+  {
+    "tag": "Pleurisy Causes",
+    "patterns": ["What are the causes Pleurisy ","Pleurisy Causes","Pleurisy of Causes"],
+    "responses": ["Bacterial infections such as pneumonia often cause pleurisy. It can also be caused by a virus such as the flu or by a fungus.\n\nOther things that can cause pleurisy are:\n   Lung cancer\n   A blood clot in your lung\n   An autoimmune disease, such as lupus or rheumatoid arthritis\n   A chest injury\nSickle-cell anemia\n   Mesothelioma "] 
+  },
+  {
+    "tag": "Pleurisy",
+    "patterns": ["stabbing pain in the lungs,Pain in the shoulder ,Pain in the  back","cough,Fever,chills","stabbing pain in the lungs,cough,Pain in the shoulder","Fever,Pain in the back,chills"],
+    "responses": ["I am sorry🙇🏽🙇🏽 I think you have \n\n*Pleurisy*"] 
+  },
+  {
+    "tag": "Pneumonia",
+    "patterns": ["Chest pain when you breathe or cough,Cough that produces phlegm or mucus,Fatigue and loss of appetite","Fever, sweating, and chills,Nausea, vomiting, and diarrhea,Shortness of breath","Fatigue and loss of appetite,Nausea, vomiting, and diarrhea,Cough that produces phlegm or mucus","Fever, sweating, and chills,Chest pain when you breathe or cough,Shortness of breath      "],
+    "responses": ["To my knowledge, I think you have \n\n*Pneumonia* \n\nIt's a lung infection that can range from mild to so severe.It happens when an infection causes the air sacs in your lungs to fill with fluid or pus. \n\nFor this you have to go to the hospital.Can i Book an appointment for you?"] 
+  }
+
+]}
+
+
+
